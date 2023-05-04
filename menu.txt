@@ -1,0 +1,5 @@
+Chicken_Sandwich 5
+Cheeseburger 6
+French_Fries 2
+Soda 1
+
