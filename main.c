@@ -167,6 +167,7 @@ void generateInvoice(MenuItem *menu, int num_menu_items, Invoice *invoices, int 
         fclose(fp);
 
         printf("Invoice saved.\n");
+        getch();
 }
 
 // Function to read the invoices from a file
