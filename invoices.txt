@@ -3,3 +3,6 @@ Sun 2023-05-04 Soda:1 Cheeseburger:6 $7
 Jimmy 2023-05-04 Chicken_Sandwich:5 French_Fries:2 $7
 Kim 2023-05-04 Chicken_Sandwich:5 French_Fries:2 Soda:1 $8
 Mina 2023-05-04 Cheeseburger:6 Soda:1 $7
+1 2023-05-07 Chicken_Sandwich:5 Cheeseburger:6 French_Fries:2 Soda:1 $14
+u 2023-05-07 Chicken_Sandwich:5 $5
+1 2023-05-07 Chicken_Sandwich:5 $5

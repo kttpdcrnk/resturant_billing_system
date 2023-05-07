@@ -136,12 +136,7 @@ void generateInvoice(MenuItem *menu, int num_menu_items, Invoice *invoices, int 
         printf("%d. %s: $%d\n", i + 1, ordered_items[i].name, ordered_items[i].price);
     }
     printf("Total price: $%d\n", total_price);
-
-    // Ask for confirmation to save the invoice
-    char confirm;
-    printf("Do you want to save this invoice? (y/n) ");
-    scanf(" %c", &confirm);
-
+    
         Invoice new_invoice;
         strcpy(new_invoice.customer.name, customer_name);
         strcpy(new_invoice.date, date);
