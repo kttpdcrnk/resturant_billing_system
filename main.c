@@ -5,7 +5,6 @@
 #include <ctype.h>
 #include <conio.h>
 
-
 #define MAX_ITEMS 100
 #define MAX_CUSTOMERS 100
 #define MAX_INVOICES 100
@@ -143,8 +142,6 @@ void generateInvoice(MenuItem *menu, int num_menu_items, Invoice *invoices, int 
     printf("Do you want to save this invoice? (y/n) ");
     scanf(" %c", &confirm);
 
-    if (confirm == 'y' || confirm == 'Y') {
-        // Create a new invoice and add it to the list
         Invoice new_invoice;
         strcpy(new_invoice.customer.name, customer_name);
         strcpy(new_invoice.date, date);
@@ -170,9 +167,6 @@ void generateInvoice(MenuItem *menu, int num_menu_items, Invoice *invoices, int 
         fclose(fp);
 
         printf("Invoice saved.\n");
-    } else {
-        printf("Invoice not saved.\n");
-    }
 }
 
 // Function to read the invoices from a file
